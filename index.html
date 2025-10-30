@@ -295,7 +295,7 @@
 
         // 遊戲狀態
         const gameState = {
-            bullets: 5,
+            bullets: 20,
             kills: 0,
             shots: 0,
             currentWeapon: 'pistol',
@@ -560,7 +560,7 @@
 
         // 重新開始
         document.getElementById('restartBtn').addEventListener('click', () => {
-            gameState.bullets = 5;
+            gameState.bullets = 20;
             gameState.kills = 0;
             gameState.shots = 0;
             gameState.zombies = [];
